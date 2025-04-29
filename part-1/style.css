@@ -34,7 +34,6 @@ a{
     grid-template-columns: 10% 65% 25%;
     padding: 3px;
     border-radius: 15px;
-    gap: 4rem;
     justify-content: center;
 
 }
@@ -54,16 +53,17 @@ a{
 .nav-center{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .links{
     display: grid;
-    grid-template-columns:15% 15% 15% 15% 15%;
-    gap: 45px;
+    grid-template-columns:20% 18% 18% 18% 18%;
+    width: 80%;
     padding: 4px;
     justify-content:space-between;
-    height: 100%;
     align-items: center;
+    gap: 0.5rem;
 }
 
 
@@ -73,5 +73,34 @@ a{
     color: aliceblue;
     border-radius: 20px;
     font-weight: bold;
+
+}
+
+.nav-right{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.icon{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    gap: 4px;
+    grid-column:1 / 2 ;
+}
+
+.img-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 /3;
+}
+
+.img-pro img{
+    width: 50%;
+    border-radius: 100%;
+    
 
 }
